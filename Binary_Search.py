@@ -13,8 +13,8 @@ def Binary_Search (lst,n):
             else:
                 U = mid
 
-lst = [2,4,5,4,27,39,3333,567,45,67,56,89,99,60]
-n = 567
+lst = [2,4,6,8,10,12,14,16,18,20,22,24,26,28,30]
+n = 14
 if Binary_Search(lst, n):
     print("found",pos+1)
 else:
